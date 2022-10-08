@@ -11,6 +11,11 @@
     box-sizing: border-box;
 }
 
+img{
+    object-fit: contain;
+}
+
+
 body{
     font-family: "Poppins", sans-serif;
 }
@@ -33,6 +38,7 @@ nav{
 .contenedor{
     display: flex;
     justify-content: end;
+    margin-left: 40px;
 }
 
 .bar-btn{
@@ -358,6 +364,10 @@ padding: 20px 20px;
 max-width: 700px;
 }
 
+.tarjeta-carrusel > img{
+    height: 130px;
+}
+
 .flecha-carrusel{
     position: absolute;
     top: 0;
@@ -515,7 +525,7 @@ small{
         display: none;
     }
     .nav-menu{
-        position: relative;
+        position: absolute;
         height: 100px;
         top: 0;
         background-color: transparent;
